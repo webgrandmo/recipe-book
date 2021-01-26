@@ -6,7 +6,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { RecipeComponent } from './components/recipe/recipe.component';
 import { RecipeListComponent } from './components/recipe/recipe-list/recipe-list.component';
 import { RecipeItemComponent } from './components/recipe/recipe-list/recipe-item/recipe-item.component';
-import { RecipeDetailsComponent } from './components/recipe/recipe-list/recipe-details/recipe-details.component';
+import { RecipeDetailsComponent } from './components/recipe/recipe-details/recipe-details.component';
 import { ShoppingListComponent } from './components/shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './components/shopping-list/shopping-list-edit/shopping-list-edit.component';
 
@@ -19,12 +19,10 @@ import { ShoppingListEditComponent } from './components/shopping-list/shopping-l
     RecipeItemComponent,
     RecipeDetailsComponent,
     ShoppingListComponent,
-    ShoppingListEditComponent
+    ShoppingListEditComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
